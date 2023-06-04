@@ -1,0 +1,7 @@
+def is_sorted(l):
+    li=sorted(l)
+    if(l==li):
+        return "True"
+    return "False"
+n=list(map(int,input().split()))
+print(is_sorted(n))
